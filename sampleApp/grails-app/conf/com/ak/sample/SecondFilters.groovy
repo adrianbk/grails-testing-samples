@@ -2,6 +2,7 @@ package com.ak.sample
 
 class SecondFilters {
 
+    def dependsOn = [FirstFilters]
     /**
      * Test filter to verify return false stops the filter chain
      */
